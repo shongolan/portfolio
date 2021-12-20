@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+label {
+  font-family: "Poppins";
+}
+
+nav {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #2b2a28;
+}
+
+nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li .active {
+  color: #f1c40f;
+  opacity: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section1 .circle {
+  margin-top: 150px;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  background: repeating-radial-gradient(circle at 0 0, #eee, #ccc 50px);
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.section1 h1 {
+  position: absolute;
+  top: 320px;
+  font-size: 100px;
+  color: #2b2a28;
+  opacity: 80%;
+}
+
+.section1 h1 span {
+  color: #f1c40f;
+}
+
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 130px;
+  padding: 10px 20px;
+}
+
+.section2 .content {
+  width: 1000px;
+  text-align: left;
+}
+
+.section2 .content h1 {
+  padding: 0 10px;
+  border-left: 5px solid #f1c40f;
+}
+
+.section2 .content p {
+  padding-left: 20px;
+  opacity: 80%;
+}
+
+.section2 .content a img {
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section2 .content a img:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.section2 .content .title {
+  margin-top: 20px;
+  opacity: 80%;
+}
+
+.section2 .content .description {
+  padding-left: 0;
+  opacity: 80%;
+}
+
+.section2 .content .tools {
+  margin-top: 20px;
+  opacity: 80%;
+}
+
+.section2 .content ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.section2 .content ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 5px;
+}
+
+.section2 .content ul li img {
+  width: 60px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 130px;
+  padding: 10px 20px;
+}
+
+.about .content {
+  width: 1000px;
+}
+
+.about .content .profile-pic {
+  width: 130px;
+  border-radius: 100%;
+  padding-left: 20px;
+}
+
+.about .content h1 {
+  padding: 0 10px;
+  border-left: 5px solid #f1c40f;
+}
+
+.about .content p {
+  padding-left: 20px;
+}
+
+.tech-stack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.tech-stack .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+}
+
+.tech-stack .row .col {
+  -webkit-box-flex: 25%;
+  -ms-flex: 25%;
+  flex: 25%;
+  margin: 0 15px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+}
+
+.tech-stack .row .col img {
+  width: 60px;
+}
+
+.background-educ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.background-educ .title {
+  width: 1000px;
+  padding-left: 10px;
+  border-left: 5px solid #f1c40f;
+  margin-bottom: 30px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  padding: 10px 20px;
+}
+
+.contact .content {
+  width: 1000px;
+}
+
+.contact .content h1 {
+  padding: 0 10px;
+  border-left: 5px solid #f1c40f;
+}
+
+.contact .content h2 {
+  margin-top: 30px;
+}
+
+.contact .content ul {
+  list-style: none;
+}
+
+.contact .content ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 5px;
+}
+
+.contact .content ul li a {
+  font-size: 28px;
+  color: #2b2a28;
+}
+
+.contact .content ul li a:hover {
+  color: #f1c40f;
+}
